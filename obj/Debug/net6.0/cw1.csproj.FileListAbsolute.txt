@@ -1,0 +1,15 @@
+/home/chr0/forge/cw1/bin/Debug/net6.0/cw1
+/home/chr0/forge/cw1/bin/Debug/net6.0/cw1.deps.json
+/home/chr0/forge/cw1/bin/Debug/net6.0/cw1.runtimeconfig.json
+/home/chr0/forge/cw1/bin/Debug/net6.0/cw1.dll
+/home/chr0/forge/cw1/bin/Debug/net6.0/ref/cw1.dll
+/home/chr0/forge/cw1/bin/Debug/net6.0/cw1.pdb
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.csproj.AssemblyReference.cache
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.GeneratedMSBuildEditorConfig.editorconfig
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.AssemblyInfoInputs.cache
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.AssemblyInfo.cs
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.csproj.CoreCompileInputs.cache
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.dll
+/home/chr0/forge/cw1/obj/Debug/net6.0/ref/cw1.dll
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.pdb
+/home/chr0/forge/cw1/obj/Debug/net6.0/cw1.genruntimeconfig.cache
