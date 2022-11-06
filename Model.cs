@@ -25,7 +25,8 @@ namespace VeterinaryPractice
         public class Owner
         {
             public int OwnerID { get; set; }
-            public string Name { get; set; }
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
             public string PhoneNo { get; set; }
             public string Email { get; set; }
             public virtual Practice Practice { get; set; }
@@ -35,7 +36,7 @@ namespace VeterinaryPractice
         {
             public int PetID { get; set; }
             public string Name { get; set; }
-            public string Species { get; set; }
+            public string Type { get; set; }
             public string Breed { get; set; }
             public virtual Owner Owner { get; set; }
             public virtual Practice Practice { get; set; }
@@ -44,9 +45,9 @@ namespace VeterinaryPractice
         public class Visit
         {
             public int VisitID { get; set; }
-            public DateTime Date { get; set; }
+            public string Date { get; set; }
             public string ExaminationResultsSummary { get; set; }
-            public string[] MedicationsPrescribed { get; set; }
+            public string MedicationsPrescribed { get; set; }
             public virtual Pet Pet { get; set; }
             public virtual Vet Vet { get; set; }
         }
