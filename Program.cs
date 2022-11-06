@@ -219,8 +219,10 @@ class Program
                 from visit in db.Visit
                 where visit.Vet.VetID == vetId && visit.Date == date
                 select visit;
+            var visitsPresent = false;
             foreach (var visit in visitQuery)
             {
+                visitsPresent = true;
                 var owner =
                     (from ownerItem in db.Owner
                      where ownerItem.OwnerID == visit.Pet.Owner.OwnerID
@@ -234,6 +236,14 @@ class Program
                     Console.WriteLine("Pet {0} who has no designated owner was treated", visit.Pet.Name);
                 }
             }
+            if (!visitsPresent) 
+            {
+                Console.WriteLine("No visits for vet {0} on date {1}", vet.Name, date);
+            }
+        }
+        else 
+        {
+            Console.WriteLine("No vet with ID {0} found", vetId);
         }
     }
 
