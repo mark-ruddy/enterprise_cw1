@@ -193,7 +193,7 @@ class Program
             foreach (var visit in visitQuery)
             {
                 visitsPresent = true;
-                Console.WriteLine("Pet {0} attended visit ID {1} on date {2}", pet.Name, visit.VisitID, visit.Date);
+                Console.WriteLine("Pet {0} attended visit ID {1} on date {2}. The result was: {3}.", pet.Name, visit.VisitID, visit.Date, visit.ExaminationResultsSummary);
             }
             if (!visitsPresent)
             {
